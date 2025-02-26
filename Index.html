@@ -89,9 +89,6 @@
         .vision-type {
             width: 45%;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
         .final-section {
@@ -161,14 +158,39 @@
             justify-content: center;
             align-items: center;
         }
+
+        .disadvantages-section {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .disadvantages-column {
+            width: 45%;
+            text-align: left;
+        }
+
+        .disadvantages-column h3 {
+            color: #000;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .disadvantages-column p {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
     </style>
 </head>
 <body>
     <!-- Intro Section -->
     <section class="intro">
         <div>
-            <h1>Welcome to Seeing the World Differently</h1>
-            <p>Scroll down to explore animations that change your perspective.</p>
+            <h1>Seeing the World Differently</h1>
+            <p>Scroll down to start.</p>
         </div>
     </section>
 
@@ -212,13 +234,28 @@
             <object id="predator" type="image/svg+xml" data="predator.svg"></object>
         </div>
         <p>Predators like wolves, lions, and eagles have forward-facing eyes that provide binocular vision. This overlap in the visual fields gives them better depth perception, which is crucial for judging distances when hunting and capturing prey.</p>
+
+        <h2 style="margin-top: 180px; margin-bottom: 20px;">Disadvantages of Different Vision Types</h2>
+        <div class="disadvantages-section">
+            <div class="disadvantages-column">
+                <h3>Monocular Vision Limitations</h3>
+                <p>• Poor depth perception makes it difficult to judge distances accurately</p>
+                <p>• Limited ability to see directly in front or behind</p>
+                <p>• Challenges in focusing on close objects</p>
+            </div>
+            <div class="disadvantages-column">
+                <h3>Binocular Vision Limitations</h3>
+                <p>• Narrower overall field of view</p>
+                <p>• Blind spots on the sides make it harder to detect peripheral movement</p>
+                <p>• More vulnerable to complete vision loss if one eye is damaged</p>
+            </div>
+        </div>
     </section>
 
     <!-- Final Content Section -->
     <section class="final-section">
         <div>
             <h1>Thank You!</h1>
-            <p>You've reached the end of the animations. We hope you enjoyed the journey!</p>
         </div>
     </section>
 
